@@ -9,7 +9,6 @@ const linkStyle = css({ textDecoration: `none`, color: `inherit` });
 const IndexPage = ({ data }) => {
   return (
     <div>
-      <div>{data.allMarkdownRemark.totalCount} Posts</div>
       {data.allMarkdownRemark.edges.map(({ node }) =>
         <div key={node.id}>
           <Link
@@ -17,10 +16,10 @@ const IndexPage = ({ data }) => {
             className={linkStyle}
           >
             <g.H3 marginBottom={rhythm(1 / 4)}>
-              {node.frontmatter.title}{" "}
-              <g.Span color="#565656">— {node.frontmatter.date}</g.Span>
+              <span>{node.frontmatter.title}</span>
+              <g.Span color="#565656"> — {node.frontmatter.date}</g.Span>
             </g.H3>
-            <p>{node.excerpt}</p>
+            <p>{node.frontmatter.summary}</p>
           </Link>
         </div>
       )}
@@ -40,11 +39,11 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            summary
           }
           fields {
             slug
           }
-          excerpt
         }
       }
     }

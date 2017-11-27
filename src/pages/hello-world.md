@@ -1,6 +1,7 @@
 ---
 title: "Welcome"
 date: "2017-11-25"
+summary: "Hello there, this is the first post on my new blog engine using Gatsby."
 ---
 
 ## Hello World

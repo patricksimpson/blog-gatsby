@@ -7,8 +7,9 @@ import { rhythm } from "../utils/typography";
 import Logo from "../components/Logo";
 import favicon from '../images/favicon.png';
 
-const linkStyle = css({ float: `right`, padding: `1rem`, backgroundImage: `none` });
+const linkStyle = css({ float: `right`, margin: `1rem 0`, padding: '0 1rem', [':hover']: { 'backgroundColor': '#efefef' } });
 const noBackground = css({ backgroundImage: `none` });
+const firstLink = css({ borderLeft: '1px solid #ccc' });
 
 const Header = () => (
   <g.Div
@@ -20,8 +21,11 @@ const Header = () => (
     <Link to={`/`} className={noBackground} >
       <Logo />
     </Link>
-    <Link className={linkStyle} to={`/about`}>
+    <Link className={`${linkStyle} ${noBackground} ${firstLink}`} to={`/about`}>
       About
+    </Link>
+    <Link className={`${linkStyle} ${noBackground}`} to={`/`}>
+      Posts
     </Link>
   </g.Div >
 )

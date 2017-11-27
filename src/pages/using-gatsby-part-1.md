@@ -1,6 +1,7 @@
 ---
 title: "Using Gatsby - Part I"
 date: "2017-11-26"
+summary: "Going into some minor details about using GatsbyJS. I talk about my previous attempts and other things."
 ---
 
 ## Background

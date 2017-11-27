@@ -1,6 +1,12 @@
 import Typography from "typography";
-import oceanBeachTheme from 'typography-theme-ocean-beach'
+import oceanBeachTheme from "typography-theme-ocean-beach";
 
-const typography = new Typography(oceanBeachTheme)
+oceanBeachTheme.overrideThemeStyles = (options) => ({
+  'a': {
+    'transition': 'all 0.5s ease'
+  }
+});
+
+const typography = new Typography(oceanBeachTheme);
 
 module.exports = typography;

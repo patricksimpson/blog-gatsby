@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from '../images/ps-logo.png';
+import { css } from 'glamor';
+
+const noMargin = css({ marginBottom: '0', minWidth: '144px' });
 
 const Logo = () => (
-  <img src={logo} alt='logo' title='logo' />
+  <img src={logo} alt='logo' title='logo' className={noMargin} />
 );
 
 const LogoSVG = () => (
