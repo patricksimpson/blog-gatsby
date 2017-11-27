@@ -1,13 +1,14 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Patrick Simpson's Blog
+
+Using Gatsby.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Todo
 
-## Deploy
+Not much going on here, so I'll post some todo's here:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- Anchor links.
+- Finish about page.
+- Finish Gatsby post.
+- Add a footer?

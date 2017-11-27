@@ -6,9 +6,8 @@ import { css } from "glamor";
 import { rhythm } from "../utils/typography";
 import Logo from "../components/Logo";
 
-import './index.css';
-
-const linkStyle = css({ float: `right`, padding: `1rem` })
+const linkStyle = css({ float: `right`, padding: `1rem`, backgroundImage: `none` });
+const noBackground = css({ backgroundImage: `none` });
 
 const Header = () => (
   <g.Div
@@ -17,13 +16,13 @@ const Header = () => (
     paddingLeft={rhythm(1)}
     paddingRight={rhythm(1)}
   >
-    <Link to={`/`}>
+    <Link to={`/`} className={noBackground} >
       <Logo />
     </Link>
-    <Link className={linkStyle} to={`/about/`}>
+    <Link className={linkStyle} to={`/about`}>
       About
     </Link>
-  </g.Div>
+  </g.Div >
 )
 
 const TemplateWrapper = ({ children }) => (

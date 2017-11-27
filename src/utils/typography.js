@@ -1,6 +1,6 @@
 import Typography from "typography";
-import starDustTheme from "typography-theme-stardust";
+import oceanBeachTheme from 'typography-theme-ocean-beach'
 
-const typography = new Typography(starDustTheme);
+const typography = new Typography(oceanBeachTheme)
 
 module.exports = typography;

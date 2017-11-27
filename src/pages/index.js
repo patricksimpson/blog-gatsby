@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import g from 'glamorous';
+import { css } from "glamor";
 import { rhythm } from '../utils/typography';
 
+const linkStyle = css({ textDecoration: `none`, color: `inherit` });
+
 const IndexPage = ({ data }) => {
-  console.log(data);
   return (
     <div>
       <div>{data.allMarkdownRemark.totalCount} Posts</div>
@@ -12,12 +14,13 @@ const IndexPage = ({ data }) => {
         <div key={node.id}>
           <Link
             to={node.fields.slug}
-            css={{ textDecoration: `none`, color: `inherit` }}
+            className={linkStyle}
           >
             <g.H3 marginBottom={rhythm(1 / 4)}>
               {node.frontmatter.title}{" "}
-              <g.Span color="#BBB">— {node.frontmatter.date}</g.Span>
+              <g.Span color="#565656">— {node.frontmatter.date}</g.Span>
             </g.H3>
+            <p>{node.excerpt}</p>
           </Link>
         </div>
       )}

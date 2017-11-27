@@ -7,11 +7,13 @@
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.8",
     "gatsby-transformer-remark": "^1.7.21",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.0",
     "typography": "^0.16.6",
+    "typography-theme-ocean-beach": "^0.15.11",
     "typography-theme-stardust": "^0.16.11"
   },
   "keywords": [

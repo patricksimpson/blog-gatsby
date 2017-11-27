@@ -1,6 +1,14 @@
 ---
-title: "Hello World"
-date: "2017-11-26"
+title: "Welcome"
+date: "2017-11-25"
 ---
 
-Hey there everyone. I challenged myself to get my blog back up and running by the end of the thanksgiving holiday break (2017). This is my attempt to make it happen using [GatsbyJS](https://www.gatsbyjs.org).
+## Hello World
+
+Hey there. So, I challenged myself to get my blog back up and running by the end of the thanksgiving holiday break (2017). This is my attempt to make it happen using [GatsbyJS](https://www.gatsbyjs.org).
+
+I'll write about my experience with Gatsby later, but so far so good. Cheers to Kyle Matthews (and others), for shipping a great product.
+
+## Rambling
+
+I am going to be rambling a lot. I just do. This is what prevents me from posting in the past. Hopefully someone somewhere will get some benefit. I know I will

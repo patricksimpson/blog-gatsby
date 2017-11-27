@@ -4,14 +4,8 @@ import Link from 'gatsby-link';
 const About = () => (
   <div>
     <h1>Hey there!</h1>
-    <p>I am a developer from Dayton, Ohio. Working at Sparkbox, I make web things.</p>
-    <p>Contact:
-       <ul>
-        <li>
-          <a href="https://twitter.com/patrexsimpson">@PaTRexSimpson</a>
-        </li>
-      </ul>
-    </p>
+    <p>I'm a full-stack web developer from Ohio.</p>
+    <p>Twitter: <a href="https://twitter.com/patrexsimpson">@patrexsimpson</a></p>
     <Link to="/">Post Listing</Link>
   </div>
 );
