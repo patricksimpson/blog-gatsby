@@ -1,7 +1,8 @@
 import React from 'react';
+import logo from '../images/ps-logo.png';
 
 const Logo = () => (
-  <img src='/static/ps-logo.png' alt='logo' title='logo' />
+  <img src={logo} alt='logo' title='logo' />
 );
 
 const LogoSVG = () => (

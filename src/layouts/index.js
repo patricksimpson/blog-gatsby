@@ -5,6 +5,7 @@ import g from "glamorous";
 import { css } from "glamor";
 import { rhythm } from "../utils/typography";
 import Logo from "../components/Logo";
+import favicon from '../images/favicon.png';
 
 const linkStyle = css({ float: `right`, padding: `1rem`, backgroundImage: `none` });
 const noBackground = css({ backgroundImage: `none` });
@@ -36,7 +37,7 @@ const TemplateWrapper = ({ children }) => (
     >
       <link rel="icon"
         type="image/png"
-        href="/static/favicon.png" />
+        href={favicon} />
     </Helmet>
     <Header />
     <div
