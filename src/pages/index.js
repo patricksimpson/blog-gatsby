@@ -10,10 +10,15 @@ const IndexPage = ({ data }) => {
       <div>{data.allMarkdownRemark.totalCount} Posts</div>
       {data.allMarkdownRemark.edges.map(({ node }) =>
         <div key={node.id}>
-          <g.H3 marginBottom={rhythm(1 / 4)}>
-            {node.frontmatter.title}{" "}
-            <g.Span color="#BBB">— {node.frontmatter.date}</g.Span>
-          </g.H3>
+          <Link
+            to={node.fields.slug}
+            css={{ textDecoration: `none`, color: `inherit` }}
+          >
+            <g.H3 marginBottom={rhythm(1 / 4)}>
+              {node.frontmatter.title}{" "}
+              <g.Span color="#BBB">— {node.frontmatter.date}</g.Span>
+            </g.H3>
+          </Link>
         </div>
       )}
     </div>
@@ -32,6 +37,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
           excerpt
         }
