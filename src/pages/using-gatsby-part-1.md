@@ -6,11 +6,13 @@ summary: "Going into some minor details about using GatsbyJS. I talk about my pr
 
 ## Background
 
-If you know me, you know that I don’t have a great tract record for a blog. I’ve used [Wordpress](https://wordpress.org/), [Ember](https://emberjs.com), [Ghost](https://ghost.org/), and my own crazy hacked blog, nothings really worked out for me unfortunately.
+If you know me, you know that I don’t have a great tract record for a blog.
+I’ve used [Wordpress](https://wordpress.org/), [Ember](https://emberjs.com), [Ghost](https://ghost.org/), and even [my own crazy hacked blog](https://github.com/patricksimpson/patricksimpson-old-blog).
+None of which has worked out for me unfortunately.
 
 ### Fast Forward
 
-This is third time I've attempted a [Gatsby](https://www.gatsbyjs.org/) site. First time, was pre [GraphQL](http://graphql.org/) and I actually did publish a simple little blog ().
+This is third time I've attempted a [Gatsby](https://www.gatsbyjs.org/) site. First time, was pre [GraphQL](http://graphql.org/), which I actually did get up and running at some point.
 
 My second attempt was _not_ [good](https://github.com/patricksimpson/patrick-blog-gatsby).  It was several days after the initial launch of Gatsby 1.0.0. I joined up the discord chat, filed a bug, but never got it off the ground.
 

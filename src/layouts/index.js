@@ -7,9 +7,9 @@ import { rhythm } from "../utils/typography";
 import LogoSVG from "../components/Logo";
 import favicon from '../images/favicon.png';
 
-const linkStyle = css({ display: 'inline-block', margin: `1rem 0`, padding: '0 1rem', [':hover']: { 'backgroundColor': '#efefef' } });
+const linkStyle = css({ display: 'inline-block', margin: `1rem 0`, padding: '0 1rem 0 1rem', [':hover']: { 'backgroundColor': '#efefef' } });
 const noBackground = css({ backgroundImage: `none` });
-const firstLink = css({ borderRight: '1px solid #ccc' });
+const firstLink = css({ borderRight: '1px solid #ccc', padding: '0 1rem 0 1rem' });
 const navLinks = css({ position: 'absolute', right: '0', top: '0' });
 
 const Header = () => (
@@ -18,6 +18,7 @@ const Header = () => (
     maxWidth={960}
     paddingLeft={rhythm(1)}
     paddingRight={rhythm(1)}
+    display={`relative`}
   >
     <Link to={`/`} className={noBackground} >
       <LogoSVG />
