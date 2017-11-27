@@ -4,12 +4,13 @@ import Helmet from "react-helmet";
 import g from "glamorous";
 import { css } from "glamor";
 import { rhythm } from "../utils/typography";
-import Logo from "../components/Logo";
+import LogoSVG from "../components/Logo";
 import favicon from '../images/favicon.png';
 
-const linkStyle = css({ float: `right`, margin: `1rem 0`, padding: '0 1rem', [':hover']: { 'backgroundColor': '#efefef' } });
+const linkStyle = css({ display: 'inline-block', margin: `1rem 0`, padding: '0 1rem', [':hover']: { 'backgroundColor': '#efefef' } });
 const noBackground = css({ backgroundImage: `none` });
-const firstLink = css({ borderLeft: '1px solid #ccc' });
+const firstLink = css({ borderRight: '1px solid #ccc' });
+const navLinks = css({ position: 'absolute', right: '0', top: '0' });
 
 const Header = () => (
   <g.Div
@@ -19,14 +20,16 @@ const Header = () => (
     paddingRight={rhythm(1)}
   >
     <Link to={`/`} className={noBackground} >
-      <Logo />
+      <LogoSVG />
     </Link>
-    <Link className={`${linkStyle} ${noBackground} ${firstLink}`} to={`/about`}>
-      About
+    <div className={navLinks}>
+      <Link className={`${linkStyle} ${firstLink} ${noBackground}`} to={`/`}>
+        Posts
     </Link>
-    <Link className={`${linkStyle} ${noBackground}`} to={`/`}>
-      Posts
+      <Link className={`${linkStyle} ${noBackground}`} to={`/about`}>
+        About
     </Link>
+    </div>
   </g.Div >
 )
 
