@@ -33,7 +33,11 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'The online ramblings of Patrick Simpson; Father, Software, Development, JavaScript.' },
         { name: 'keywords', content: 'Javascript, Development, Web Development, Internet' },
       ]}
-    />
+    >
+      <link rel="icon"
+        type="image/png"
+        href="/static/favicon.png" />
+    </Helmet>
     <Header />
     <div
       style={{

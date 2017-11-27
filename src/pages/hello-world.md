@@ -11,4 +11,4 @@ I'll write about my experience with Gatsby later, but so far so good. Cheers to 
 
 ## Rambling
 
-I am going to be rambling a lot. I just do. This is what prevents me from posting in the past. Hopefully someone somewhere will get some benefit. I know I will
+I am going to be rambling a lot. I just do. This is what prevents me from posting in the past. Hopefully someone somewhere will get some benefit, I am.
