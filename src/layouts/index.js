@@ -26,7 +26,7 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Homepage of Patrick Simpson"
+      title="Patrick Simpson"
       meta={[
         { name: 'description', content: 'The online ramblings of Patrick Simpson; Father, Software, Development, JavaScript.' },
         { name: 'keywords', content: 'Javascript, Development, Web Development, Internet' },
