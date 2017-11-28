@@ -9,6 +9,5 @@ For an overview of the project structure please refer to the [Gatsby documentati
 Not much going on here, so I'll post some todo's here:
 
 - Anchor links.
-- Finish about page.
-- Finish Gatsby post.
 - Add a footer?
+- Fix up pages vs posts content area.
