@@ -1,0 +1,28 @@
+h1 {
+  margin: 0.4rem 0;
+  margin-bottom: 1.6rem;
+}
+
+h2 {
+  margin: 0.4rem 0;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 0.4rem 0;
+  margin-bottom: 0.6rem;
+}
+
+.post-item {
+  margin-bottom: 2.75rem;
+}
+
+.post-link {
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-date{
+  color: #565656;
+}

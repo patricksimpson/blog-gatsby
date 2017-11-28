@@ -1,10 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import './index.css';
+
 const About = () => (
   <div>
     <h1>Hey, I'm Patrick! </h1>
-    <h2>Perhaps the coolest guy you'll ever encounter.</h2>
+    <h2 className="sub-line">Perhaps the coolest guy you'll ever encounter.</h2>
     <p>
       I'm a full-stack web developer from Ohio. I make the Internet at <a href="https://twitter.com/hearsparkbox">@hearsparkbox</a>.
       I'll be posting about developer things, primarily JavaScript, Emacs, and my life with four kids.
