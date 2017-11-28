@@ -267,15 +267,6 @@ AddDefaultCharset utf-8
 </IfModule>
 
 # ----------------------------------------------------------------------
-# Disable server signature (Security)
-# Configures the Server HTTP response header
-# http://httpd.apache.org/docs/2.2/mod/core.html#serversignature
-# ----------------------------------------------------------------------
-
-ServerSignature Off
-ServerTokens Prod
-
-# ----------------------------------------------------------------------
 # Disable directory browsing (Security)
 # Generates directory indexes, automatically, similar to the Unix ls command or the Win32 dir shell command
 # http://httpd.apache.org/docs/2.0/mod/mod_autoindex.html
