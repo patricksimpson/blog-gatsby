@@ -4,15 +4,17 @@ summary: "Here's my details on using Gatsby specifically GraphQL, deployment and
 date: "2017-11-30"
 ---
 
-After a little more experimenting, I've finally landed at a good place with [GatsbyJS][gatsby_link] (Gatsby).  Here's my [blog source][blog_link]. The Gatsby tutorial is really good too.
+After a little more experimenting, I've finally landed at a good place with [GatsbyJS][gatsby_link] (Gatsby).  Here's my [blog source][blog_link].
+
+If you haven't already, read the Gatsby [tutorial]. My blog was derived from it. 
 
 ## GraphQL
 
 [GraphQL][graphql_link] is the key that makes everything come together nicely though. I admit, it's not easy to understand at first. I've only just scratched the surface. 
 
-For the purpose of my blog , I am using GraphQL to make queries on the file system. This, Gatsby seemingly handles the magic of running the GraphQL server in order for these queries to work. 
+For the purpose of my blog , I am using GraphQL to make queries on the file system. This, Gatsby handles the magic of running the GraphQL server in order for these queries to work. 
 
-Here is a file system query, using the [remark] plugin, which helps convert the static assets into usable html (because after all markdown is just text!):
+Here is a file system query, using the [remark] plugin, which helps convert the static assets into usable html... because after all markdown is just text!
 
     query IndexQuery {
     // Using allMarkdownRemark from Gatsby plugins.
@@ -49,7 +51,7 @@ Though Gatsby has For me, I already had a droplet setup with Apache running (thi
 
 I use [mina][mina_link] as my deployment and adding this in was no problem at all. 
 
-For now the biggest deployment pain point is running `gatsby build` on the server takes 60-90 seconds at times. This feels slow to me, but I get it. It's compiling down all of my blog posts and other static assets into a flat file system that can be used **without** javascript.
+For now the biggest deployment pain point is running `gatsby build` on the server takes about 20-30 seconds. This feels slow to me, but I get it. It's compiling down all of my blog posts and other static assets into a flat file system that can be used **without** javascript.
 
 ## Performance 
 
@@ -79,3 +81,4 @@ All in all, GatsbyJS is excellent. I'd recommend it to anyone and I look forward
 [webpage_link]: https://www.webpagetest.org/result/171130_8W_ca7c786809960f88123dce649189706a/
 [remark]: https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-transformer-remark
 [classnames]: https://github.com/JedWatson/classnames
+[tutorial]: https://www.gatsbyjs.org/tutorial/
