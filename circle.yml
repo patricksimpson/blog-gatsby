@@ -5,7 +5,7 @@ general:
 dependencies:
   override:
     - npm i
-    - gatsby build
+    - node ./node_modules/gatsby/dist/bin/gatsby build
 
 machine:
   node:
