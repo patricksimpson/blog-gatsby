@@ -1,23 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Patrick Simpson`,
+      title: `Patrick Simpson`,
+      description: `A simple blog, about me.`,
+      siteUrl: `https://patricksimpson.me`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
+      
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography.js`,
-      },
+        pathToConfigModule: `src/utils/typography.js`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/`,
-      },
-
+        path: `${__dirname}/src/`
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -25,6 +27,59 @@ module.exports = {
         trackingId: 'UA-18023092-12',
         anonymize: true
       }
+    },
+     {
+    resolve: `gatsby-plugin-feed`,
+    options: {
+      query: `
+        {
+          site {
+            siteMetadata {
+              title
+              description
+              siteUrl
+              site_url: siteUrl
+            }
+          }
+        }
+      `,
+      feeds: [
+        {
+          serialize: ({ query: { site, allMarkdownRemark } }) => {
+            return allMarkdownRemark.edges.map(edge => {
+              return Object.assign({}, edge.node.frontmatter, {
+                description: edge.node.frontmatter.summary,
+                url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                custom_elements: [{ "content:encoded": edge.node.html }]
+              });
+            });
+          },
+          query: `
+            {
+              allMarkdownRemark(
+                limit: 1000,
+                sort: { order: DESC, fields: [frontmatter___date] }
+              ) {
+                edges {
+                  node {
+                    excerpt
+                    html
+                    fields { slug }
+                    frontmatter {
+                      title
+                      summary
+                      date
+                    }
+                  }
+                }
+              }
+            }
+          `,
+          output: "/rss.xml"
+        }
+      ]
     }
+  }   
   ]
-}
+};
