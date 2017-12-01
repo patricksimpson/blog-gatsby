@@ -1,0 +1,24 @@
+general:
+  artifacts:
+    - "~/site.tar.gz"
+
+dependencies:
+  override:
+    - npm i
+    - gatsby build
+
+machine:
+  node:
+    version: 8.2.1
+  environment:
+    NODE_ENV: production
+
+test:
+  override:
+    - echo 'no tests...'
+
+deployment:
+  production:
+    branch: /.*/
+    commands:
+      - tar --exclude=".git" --exclude="node_modules" -czvf ~/site.tar.gz .
