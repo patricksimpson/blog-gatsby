@@ -22,6 +22,7 @@ const Posts = ({ data }) => {
           </Link>
         </div>
       )}
+    <Link to="/">Newer Posts</Link>
     </div>
   );
 }
