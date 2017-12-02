@@ -1,0 +1,44 @@
+.post-item {
+ margin-bottom: 0.5em;
+}
+
+.post-item-front {
+  margin-bottom: 2.75rem;
+}
+
+.post-link {
+  margin: 0;
+  color: inherit;
+  text-decoration: none;
+  background-image: none;
+}
+
+.post-title {
+  display: inline-block;
+  color: #222;
+}
+
+.post-date{
+  display: inline-block;
+  color: #999;
+  font-size: 0.85rem;
+  margin-left: 1rem;
+}
+
+.post-page-title {
+  margin-bottom: 0.6em;
+}
+.post-link-old {
+  padding: 0.25em 0;
+}
+
+.post-link-old:hover {
+  background-color: #efefef;
+}
+
+.post-page-date {
+  display: inline-block;
+  color: #999;
+  font-size: 0.85rem;
+  margin-bottom: 1.2em;
+}

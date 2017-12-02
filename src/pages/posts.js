@@ -3,43 +3,41 @@ import Link from 'gatsby-link';
 import { css } from "glamor";
 import { rhythm } from '../utils/typography';
 
-import './index.css';
 import './posts.css';
 
-const IndexPage = ({ data }) => {
+const Posts = ({ data }) => {
   return (
     <div>
+    <h2>Older Posts</h2>
       {data.allMarkdownRemark.edges.map(({ node }) =>
-        <div key={node.id} className="post-item post-item-front">
+        <div key={node.id} className="post-item">
           <Link
             to={node.fields.slug}
-            className="post-link"
+            className="post-link post-link-old"
           >
-            <h3 className="post-title">
+            <div className="post-title">
               <span>{node.frontmatter.title}</span>
-            </h3>
+            </div>
             <span className="post-date">{node.frontmatter.date}</span>
-            <p>{node.frontmatter.summary}</p>
           </Link>
         </div>
       )}
-    <Link to="/posts">Older Posts</Link>
     </div>
   );
 }
 
-export default IndexPage
+export default Posts;
 
 export const query = graphql`
-  query IndexQuery {
-    allMarkdownRemark(limit: 5, sort: {fields: [frontmatter___date], order: DESC}) {
+  query PostsQuery {
+    allMarkdownRemark(skip: 5, sort: {fields: [frontmatter___date], order: DESC}) {
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "DD MMM, YYYY")
             summary
           }
           fields {
