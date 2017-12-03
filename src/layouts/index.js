@@ -25,16 +25,15 @@ const Header = () => (
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Patrick Simpson"
-      meta={[
-        { name: 'description', content: 'The online ramblings of Patrick Simpson; Father, Software, Development, JavaScript.' },
-        { name: 'keywords', content: 'Javascript, Development, Web Development, Internet' },
-      ]}
-    >
-      <link rel="icon"
-        type="image/png"
-        href={favicon} />
+    <Helmet>
+      <title>Patrick Simpson</title>
+      <meta name="description" content="The blog of Patrick Simpson; Software, Development, JavaScript." />
+      <meta name="keywords" content="Javascript, Development, Web Development, Internet" />
+      <meta name="twitter:title" content="The blog of Patrick Simpson; Software, Development, JavaScript." />
+      <meta name="twitter:description" content="Javascript, Development, Web Development, Internet" />
+      <meta name="theme-color" content="#ffffff" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:site" content="@patrexsimpson" />
     </Helmet>
     <Header />
     <div className="main">

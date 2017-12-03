@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import { css } from "glamor";
 import { rhythm } from '../utils/typography';
+import Helmet from 'react-helmet';
 
 import './posts.css';
 
@@ -23,6 +24,9 @@ const Posts = ({ data }) => {
         </div>
       )}
     <Link to="/">Newer Posts</Link>
+    <Helmet>
+      <title>Older Posts by Patrick Simpson</title>
+    </Helmet>
     </div>
   );
 }
@@ -38,7 +42,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMM, YYYY")
+            date(formatString: "MMM Do, YYYY")
             summary
           }
           fields {

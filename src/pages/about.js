@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 
 import './index.css';
 
@@ -13,6 +14,9 @@ const About = () => (
     </p>
     <p>If you wish, drop me a line on Twitter: <a href="https://twitter.com/patrexsimpson">@patrexsimpson</a></p>
     <Link to="/">Back to posts</Link>
+    <Helmet>
+      <title>About Patrick Simpson</title>
+    </Helmet>
   </div>
 );
 

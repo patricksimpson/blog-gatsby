@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Helmet from "react-helmet";
 
 import '../pages/posts.css';
 
@@ -13,6 +14,16 @@ export default ({ data }) => {
       <span className="post-page-date">{post.frontmatter.date}</span>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <Link to="/">Back to posts</Link>
+      <Helmet>
+        <title>{post.frontmatter.title}</title>
+        <meta name="description" content={post.frontmatter.title} />
+        <meta name="keywords" content={post.frontmatter.summary} />
+        <meta name="twitter:title" content={post.frontmatter.title} />
+        <meta name="twitter:description" content={post.frontmatter.summary} />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@patrexsimpson" />
+      </Helmet>
     </div>
   )
 }
@@ -23,7 +34,8 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "DD MMMM, YYYY")
+        summary
+        date(formatString: "MMMM Do, YYYY")
       }
     }
   }
