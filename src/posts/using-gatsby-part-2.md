@@ -16,16 +16,19 @@ For the purpose of my blog, I am using GraphQL to make queries on the file syste
 
 Here is a file system query, using the [remark] plugin, which helps convert the static assets into usable html... because after all markdown is just text!
 
-    query IndexQuery {
-    // Using allMarkdownRemark from Gatsby plugins.
-    // Sorting is passed in as a param here.
-    // Here I order DESC on the front matter date.
-    allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
-      totalCount // This I was setup in the gatsby-node.js file.
+```javascript
+query IndexQuery {
+
+  // Using allMarkdownRemark from Gatsby plugins.
+  // Sorting is passed in as a param here.
+  // Here I order DESC on the front matter date.
+
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+    totalCount // This I was setup in the gatsby-node.js file.
       edges {
         node {
           id
-           // front matter data
+          // front matter data
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
@@ -38,6 +41,9 @@ Here is a file system query, using the [remark] plugin, which helps convert the 
         }
       }
     }
+  }
+}
+```
 
 So we've stubbed out the data that would be returned to us in the GraphQL query here. In this case, I am grabbing all nodes (files) with `allMarkdownRemark`. Each `node` is a file, with it comes the data.
 

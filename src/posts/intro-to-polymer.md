@@ -10,24 +10,24 @@ An opinionated way to embrace the future web component standard (http://www.w3.o
 
 https://www.polymer-project.org/
 
-Big frameworks are doing some form of "web components" 
+Big frameworks are doing some form of "web components"
 
  - Ember.js - http://emberjs.com/
- - Angular.js - https://angularjs.org/ 
+ - Angular.js - https://angularjs.org/
 
 ## Why use Polymer?
 
-From hacker news: 
+From hacker news:
 
-When you ask "should I use Polymer", what I hear is, "should I get a jump start on the upcoming future of the web"? Lets be clear here, Mozilla, IE, Chrome etc... are all merging on these technologies. 
+When you ask "should I use Polymer", what I hear is, "should I get a jump start on the upcoming future of the web"? Lets be clear here, Mozilla, IE, Chrome etc... are all merging on these technologies.
 
-Object observers, templating, web components etc... are all emerging, Polymer is just one way you can use them now and tie them all together in an opinionated way. 
+Object observers, templating, web components etc... are all emerging, Polymer is just one way you can use them now and tie them all together in an opinionated way.
 
 If you don't like it you don't have to use polymer you could just use plain ol JS and achieve the exact same solution, just slightly more verbose and with less support.
 
 https://news.ycombinator.com/item?id=7971847
 
-In other words, if you want to start using web components, Polymer is one way to accomplish it. 
+In other words, if you want to start using web components, Polymer is one way to accomplish it.
 
 ## Examples
 
@@ -35,30 +35,34 @@ To run Polymer you'll need polymer, run: `bower install Polymer/polymer`
 
 Import Elements
 
-    <link rel="import" href="elements/my-name.html">
+```html
+<link rel="import" href="elements/my-name.html">
+```
 
 ### Why this is awsome?
 
-A huge benefit is _reusability_ and _shared_ [component libraries](http://customelements.io). For example, Polymer provides [core](https://www.polymer-project.org/docs/elements/core-elements.html)  and [paper](https://www.polymer-project.org/docs/elements/paper-elements.html) elements. 
+A huge benefit is _reusability_ and _shared_ [component libraries](http://customelements.io). For example, Polymer provides [core](https://www.polymer-project.org/docs/elements/core-elements.html)  and [paper](https://www.polymer-project.org/docs/elements/paper-elements.html) elements.
 
 To use it a core element, such as `core-ajax` all I needed to do was run: `bower install Polymer/core-ajax`
 
-    <link rel="import" href="../bower_components/polymer/polymer.html">
-    <link rel="import" href="../bower_components/core-ajax/core-ajax.html">
-    <polymer-element name="my-name" noscript>
-      <template>
-        <core-ajax url="http://polymer.dev/twitter.json" auto response="{{res}}"></core-ajax>
-        <div> Hello, my name is {{res.name}} </div>
-      </template>
-    </polymer-element>
+```html
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+<polymer-element name="my-name" noscript>
+  <template>
+    <core-ajax url="http://polymer.dev/twitter.json" auto response="{{res}}"></core-ajax>
+    <div> Hello, my name is {{res.name}} </div>
+  </template>
+</polymer-element>
+```
 
 ### Reusability
 
-Web compontents promotes reusability, which can give your next project a jump start on framework, structure and [more](http://customelements.io). 
+Web compontents promotes reusability, which can give your next project a jump start on framework, structure and [more](http://customelements.io).
 
-Write once, reuse it, time and time again. That's music to my ears. 
+Write once, reuse it, time and time again. That's music to my ears.
 
-This is something I am very excited about, and will continue to monitor. For now, here is a list of resources that I have found insanely useful. 
+This is something I am very excited about, and will continue to monitor. For now, here is a list of resources that I have found insanely useful.
 
 ## Resources
 
@@ -87,7 +91,7 @@ This is something I am very excited about, and will continue to monitor. For now
 ### Custom Components
 
  - http://customelements.io/
- 
+
 ### Advanced
 
  - Vulcanize: Inline all your components: https://github.com/polymer/vulcanize

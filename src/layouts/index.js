@@ -6,7 +6,7 @@ import { rhythm } from "../utils/typography";
 import LogoSVG from "../components/Logo";
 import favicon from '../images/favicon.png';
 
-
+import './prism.css';
 import './index.css';
 
 const Header = () => (
