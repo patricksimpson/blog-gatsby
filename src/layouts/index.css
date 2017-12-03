@@ -1,3 +1,25 @@
+h1 {
+  margin: 0.4rem 0;
+  margin-bottom: 1.6rem;
+  background-image: none;
+}
+
+h2 {
+  margin: 0.4rem 0;
+  margin-bottom: 1rem;
+  background-image: none;
+}
+
+h3 {
+  margin: 0.4rem 0;
+  margin-bottom: 0.6rem;
+  background-image: none;
+}
+
+.anchor {
+  background-image: none;
+}
+
 .header {
   max-width: 960px;
   margin: 0 auto;
@@ -54,4 +76,3 @@
 .nav-link:hover {
   color: #62001E;
 }
-
