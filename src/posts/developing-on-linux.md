@@ -1,7 +1,7 @@
 ---
 title: "Developing on Linux"
 summary: "Making the switch from developing on MacOS to Linux. What tools are the same, what tools are different?"
-date: "2018-02-25"
+date: "2018-02-25 17:05:48"
 ---
 
 I've decided to switch my home development box from MacOS to Linux and in doing so I wanted to have a little record of
