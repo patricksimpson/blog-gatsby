@@ -1,23 +1,19 @@
-import React from "react";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
+import React from 'react'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
-import '../pages/posts.css';
+import '../pages/posts.css'
 
 export default ({ data }) => {
   const post = data.markdownRemark
   return (
     <div className="edit">
       <div className="edit-post">
-        <textarea>
-          {post.internal.content}
-        </textarea>
+        <textarea>{post.internal.content}</textarea>
         <button> edit </button>
       </div>
       <div clasName="view-post">
-        <h1 className="post-page-title">
-          {post.frontmatter.title}
-        </h1>
+        <h1 className="post-page-title">{post.frontmatter.title}</h1>
         <span className="post-page-date">{post.frontmatter.date}</span>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <Link to="/">Back to posts</Link>
