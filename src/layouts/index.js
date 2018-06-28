@@ -10,19 +10,21 @@ import './prism.css'
 import './index.css'
 
 const Header = () => (
-  <div className="header">
-    <div className="logo-link-container">
-      <Link to={`/`} className="site-title">
-        [ PS ]
-      </Link>
-    </div>
-    <div className="nav-link-container">
-      <Link className="nav-link" to={`/`}>
-        Posts
-      </Link>
-      <Link className="nav-link" to={`/about`}>
-        About
-      </Link>
+  <div className="header-wrap">
+    <div className="header">
+      <div className="logo-link-container">
+        <Link to={`/`} className="site-title">
+          [ PS ]
+        </Link>
+      </div>
+      <div className="nav-link-container">
+        <Link className="nav-link" to={`/`}>
+          Posts
+        </Link>
+        <Link className="nav-link" to={`/about`}>
+          About
+        </Link>
+      </div>
     </div>
   </div>
 )
