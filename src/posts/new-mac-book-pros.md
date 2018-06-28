@@ -7,34 +7,27 @@ tags: ["mac", "tech", "random", "comments"]
 
 ![Mac Book](https://s3-us-east-2.amazonaws.com/pks-screenshots/macbook_pro_2018_-_Google_Search_2018-06-27_20-17-29.jpg)
 
-TL;DR: Nah
+TL;DR Nah
 
 I've recently been asked about how I felt about the new Mac Book pro.
-As a semi recent convert to Apple laptops (~2011), I wouldn't consider myself labeled an Apple "fan boy", but others may disagree.
+As a semi recent convert to Apple laptops (~2011), I wouldn't consider myself labeled an Apple fan boy.
 
 My list of major deal breakers, for now:
 
  - [No Mag Safe](https://www.theverge.com/2016/10/27/13441150/rip-magsafe-apple-macbook-pro-charging-cable-usb-c)
+ - [The Keyboard](https://theoutline.com/post/2402/the-new-macbook-keyboard-is-ruining-my-life?zd=1&zi=za3f345l)
  - [Touch bar](https://www.makeuseof.com/tag/disable-macbook-pro-touch-bar/)
  - [USB-C](https://boingboing.net/2017/10/14/the-technical-trainwreck-that.html)
- - [The Keyboard](https://theoutline.com/post/2402/the-new-macbook-keyboard-is-ruining-my-life?zd=1&zi=za3f345l)
+
+## The Bad
 
 ### Mag Safe
 
-Mag Safe -- Amazing invention, something that always was a problem for my PC Laptops was the power port would eventually break. (Still a problem for the kids kindles!).
-Why remove Mag Safe over USB-C power?
+Mag Safe -- Amazing invention, something that always was a problem for my PC Laptops was the power port would eventually break. This kind of problem plauges micro usb connectors (like the Kindle Fire)
+
+So, why ditch Mag Safe for USB-C power?
 
 ![Mag Safe](https://s3-us-east-2.amazonaws.com/pks-screenshots/magsafe_-_Google_Search_2018-06-27_20-46-48.jpg)
-
-### USB-C
-
-I understand it logically... it makes sense to go this route. [But we're not ready yet](https://medium.com/morebranches-com/usb-type-c-is-the-future-but-why-arent-we-using-it-yet-683026fcea48).
-
-Why not a transitional port on one side (along with a Mag Safe power adapter port)?
-
-### Track pad
-
-This is still great, and one of the reasons I can't use any other track pad... they actually work great and once you learn some gestures, it's even better. I hope it only continues to improve.
 
 ### Keyboard / Touch bar
 
@@ -47,13 +40,21 @@ Yes, the [Touch Id](https://en.wikipedia.org/wiki/Touch_ID) is cool. That's abou
 
 ![touch id](https://s3-us-east-2.amazonaws.com/pks-screenshots/touch_id_-_Google_Search_2018-06-27_20-40-56.jpg)
 
-### Plenty of ports.
+### USB-C
 
-The old Mac Books and Mac Book Airs had SD card readers, lots of USB ports and of course mag safe. Can I have my mag safe back?
+I can kind of see where this is going; it makes sense to go this route, logically. [But we're not ready yet](https://medium.com/morebranches-com/usb-type-c-is-the-future-but-why-arent-we-using-it-yet-683026fcea48).
+
+Why not a transitional port on one side (along with a Mag Safe power adapter port)?
 
 ### Hardware
 
 Eh, it's comparable, but you can find better [hardware out there for cheaper](https://system76.com/laptops) (not that that's the only deciding factor).
+
+## The Good
+
+### Track pad
+
+This is still great, and one of the reasons I can't use any other track pad... they actually work great and once you learn some gestures, it's even better. I hope it only continues to improve.
 
 ### Mac OS
 
