@@ -12,8 +12,8 @@ import './index.css'
 const Header = () => (
   <div className="header">
     <div className="logo-link-container">
-      <Link to={`/`} className="logo-link svg">
-        [P/S]
+      <Link to={`/`} className="site-title">
+        [ PS ]
       </Link>
     </div>
     <div className="nav-link-container">

@@ -4,14 +4,13 @@ date: "2018-06-24"
 summary: "Just some thoughts on Ted Nelson and Star Wars"
 ---
 
-## Ted Nelson
+## Who is Ted Nelson?
 
-A tad (little) crazy, but has some very interesting ideas.
-
+Just did some light reading about [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson), who is the inventor of the hyperlink.
+My thoughts: A tad (little) crazy, but has some very interesting ideas.
 Check out [Xanadu Space](https://en.wikipedia.org/wiki/Project_Xanadu) and [ZigZag](http://www.nongnu.org/gzz/gi/gi.html).
 
-## All "new" Star Wars movies
-
+## The "New" Star Wars Movies
 
 ![butts](https://s3-us-east-2.amazonaws.com/pks-screenshots/star_wars_solo_-_Google_Search_2018-06-27_14-20-35.jpg)
 

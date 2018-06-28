@@ -35,7 +35,16 @@ h3 {
 
 .logo-link-container {
   text-align: left;
-  width: 150px;
+  width: 100%;
+}
+
+.site-title {
+  color: #333;
+  font-size: 2rem;
+  font-family: 'Roboto Slab',sans-serif;
+  text-decoration: none;
+  background-image: none;
+  text-shadow: 2px 2px #f7efef;
 }
 
 .logo-link {

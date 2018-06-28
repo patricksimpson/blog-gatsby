@@ -1,0 +1,6 @@
+.avatar {
+  border-radius: 50%;
+  max-width: 150px;
+  float: right;
+  box-shadow: 1px 1px #ccc;
+}
