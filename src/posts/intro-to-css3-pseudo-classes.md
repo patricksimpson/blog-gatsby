@@ -2,6 +2,7 @@
 title: "Intro to CSS3: Pseudo-classes"
 date: "2012-08-17"
 summary: "CSS can be fun, really!"
+tags: ["old", "programming"]
 ---
 
 Many of you have probably used a CSS pseudo-class. This “concept” was introduced in early versions of CSS. For example the a:link, a:hover, etc. These class definitions could be applied to a “window.event”. This kind of tool was powerful, and paved the way for more advanced usage of CSS.
@@ -10,14 +11,14 @@ In 2011, the W3C released “Selectors Level 3“. This introduced the new conce
 
 A pseudo-class starts off with a : (colon) and optionally contains a value between parentheses. Pseudo-classes (for now) start out with a simple element selection. For example:
 
- 	a:hover { ... } 
-	
+ 	a:hover { ... }
+
 In this example “a” is the element selector, “:” starts the pseudo-class syntax, “hover” is the pseudo class.
 
 Next, it is important to add that you can combine pseudo-classes together. For instance:
 
 	a:hover:focus { ... }
-	
+
 Which will applies the “…” css to the a hover and focus state.
 
 Pseudo-classes

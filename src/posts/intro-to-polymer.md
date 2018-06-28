@@ -2,6 +2,7 @@
 title: "Intro to Polymer"
 summary: "Enter the future, of web components"
 date: "2014-11-20"
+tags: ["old", "programming"]
 ---
 
 ## What is Polymer?

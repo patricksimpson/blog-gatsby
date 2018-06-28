@@ -2,6 +2,7 @@
 title: "Progressive Enhancement vs. Graceful Degradation"
 date: "2011-03-04"
 summary: "All about progressive enhancement..."
+tags: ["old", "programming"]
 ---
 
 Progressive Enhancement (PE) is the opposite of Graceful Degradation (GD).

@@ -1,21 +1,18 @@
 ---
-title: "New Mac Book Pros"
+title: "New Mac Book Pro"
 date: "2018-06-27"
 summary: "Thoughts on the new Mac Book Pro"
+tags: ["mac", "tech", "random", "comments"]
 ---
-
-## The "New" Mac Book Pro
-
-TL;DR
-
-### Nah
 
 ![Mac Book](https://s3-us-east-2.amazonaws.com/pks-screenshots/macbook_pro_2018_-_Google_Search_2018-06-27_20-17-29.jpg)
 
-I've recently been asked about how I felt about the new Mac Book pro.
-As a semi recent convert to Apple laptops (~2011), I wouldn't consider myself labeled a Apple "fan boy", but others may disagree.
+TL;DR: Nah
 
-My list of major deal breakers (for now):
+I've recently been asked about how I felt about the new Mac Book pro.
+As a semi recent convert to Apple laptops (~2011), I wouldn't consider myself labeled an Apple "fan boy", but others may disagree.
+
+My list of major deal breakers, for now:
 
  - [No Mag Safe](https://www.theverge.com/2016/10/27/13441150/rip-magsafe-apple-macbook-pro-charging-cable-usb-c)
  - [Touch bar](https://www.makeuseof.com/tag/disable-macbook-pro-touch-bar/)
@@ -24,21 +21,21 @@ My list of major deal breakers (for now):
 
 ### Mag Safe
 
-Mag Safe Amazing invention, something that always was a problem for my PC Laptops was the power port would eventually break. (Still a problem for the kids kindles!).
+Mag Safe -- Amazing invention, something that always was a problem for my PC Laptops was the power port would eventually break. (Still a problem for the kids kindles!).
 Why remove Mag Safe over USB-C power?
 
 ![Mag Safe](https://s3-us-east-2.amazonaws.com/pks-screenshots/magsafe_-_Google_Search_2018-06-27_20-46-48.jpg)
 
 ### USB-C
 
-I understand this, logically it makes sense to go this route. [But we're not ready yet](https://medium.com/morebranches-com/usb-type-c-is-the-future-but-why-arent-we-using-it-yet-683026fcea48).
+I understand it logically... it makes sense to go this route. [But we're not ready yet](https://medium.com/morebranches-com/usb-type-c-is-the-future-but-why-arent-we-using-it-yet-683026fcea48).
 
 Why not a transitional port on one side (along with a Mag Safe power adapter port)?
 
 ### Track pad
 
 This is still great, and one of the reasons I can't use any other track pad... they actually work great and once you learn some gestures, it's even better. I hope it only continues to improve.
-O
+
 ### Keyboard / Touch bar
 
 The keyboard is [plagued](https://www.macworld.co.uk/feature/mac/macbook-pro-keyboard-problems-3653458/) with issues and concerns. [Recently this was addressed](https://www.marketwatch.com/story/apple-will-replace-damaged-keys-or-entire-keyboards-on-sticky-macbooks-2018-06-23) but I am still cautious.
@@ -60,8 +57,7 @@ Eh, it's comparable, but you can find better [hardware out there for cheaper](ht
 
 ### Mac OS
 
-Mac OS is fine. It does what I need it to do, mostly. Usually I am buying little 10 dollar apps
-here and there, but all in all it's pretty good. Though, I've been trying [developing on Linux](https://patricksimpson.me/developing-on-linux/) and can
+Mac OS is fine. It does what I need it to do, most of the time. I feel like I am buying little 10 dollar apps here and there, but all in all it's pretty good. Though, I've been trying [developing on Linux](https://patricksimpson.me/developing-on-linux/) and can
 really see myself using it instead. Not much is missing... if anything important is missing, there's a workaround. ¯\_(ツ)_/¯
 
 ## Wrap Up

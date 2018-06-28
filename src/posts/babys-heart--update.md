@@ -2,6 +2,7 @@
 title: "Baby’s Heart – Update"
 date: "2012-08-15"
 summary: "Our baby's heart condition is complicated."
+tags: ["personal"]
 ---
 
 Wow, time surely flies by, the due date approaches (approx. 1 month from now). We have been seeing a lot of doctors and have even met the surgeon that will likely perform the surgery.

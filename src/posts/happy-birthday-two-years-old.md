@@ -2,6 +2,7 @@
 title: Happy Birthday - Two Years Old!
 date: "2014-09-19"
 summary: ""
+tags: ["personal"]
 ---
 Today, my little girl turns two.
 

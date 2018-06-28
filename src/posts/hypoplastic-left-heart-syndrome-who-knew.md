@@ -2,6 +2,7 @@
 title: "Hypoplastic Left Heart Syndrome, Who Knew?"
 date: "2012-05-12"
 summary: ""
+tags: ["personal"]
 ---
 
 Recently we have found out during a routine ultra sound, our (expecting) child has been diagnosed with Hypoplastic Left Heart Syndrome (HLHS). While this is a rare congenital heart condition, it has a major (open heart) surgical intervention, called the Norwood procedure.

@@ -2,6 +2,7 @@
 title: "Samantha"
 date: "2012-09-23"
 summary: "Samantha - She's here!"
+tags: ["personal"]
 ---
 
 Hello everyone, just wanted to let you know that our daughter Samantha Claire Simpson was born on 9-19-2012 at 3:59 am. Woo! She was 7 lbs 4 oz of pure sweet joy.

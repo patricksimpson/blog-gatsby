@@ -2,10 +2,7 @@
 title: Automation FTW Bust Your Cache
 date: "2014-04-08"
 summary: "Cache busting won't solve your money problems, but it will clean up those stale CSS and JS files."
-tags:
-  - name: "code"
-  - name: "foundry"
-  - name: "gruntjs"
+tags: ["programming", "old"]
 ---
 
 *Originally posted on the [Foundry](http://bit.ly/1oJhYFJ) via [Sparkbox](http://seesparkbox.com).*

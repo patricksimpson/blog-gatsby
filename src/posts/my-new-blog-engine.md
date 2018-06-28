@@ -2,11 +2,12 @@
 title: My Static Markdown Blog Engine
 date: "2014-11-03"
 summary: A non-typical hello world post.
+tags: ["old", "programming"]
 ---
 
-I started out on a journey, building a static blog engine from the ground up. I know it's been done before and we shouldn't be reinventing the wheel... But this idea has been bugging me for a long time, it was finally time to get it done. 
+I started out on a journey, building a static blog engine from the ground up. I know it's been done before and we shouldn't be reinventing the wheel... But this idea has been bugging me for a long time, it was finally time to get it done.
 
-With other static engines, I always feel like I give up a little control. I give up a tiny detail that nags me. I can't stand that one little thing I have to give up. 
+With other static engines, I always feel like I give up a little control. I give up a tiny detail that nags me. I can't stand that one little thing I have to give up.
 
 [Ghost](http://tryghost.org) was my last attempt. (Considering I moved to Ghost from Wordpress, things were looking good.) I love Ghost's editor interface. It's low barrier-to-entry was what won me over. However, I lost some control. It didn't give me everything I wanted. I felt like modifying it outside of what Ghost was providing was difficult or out of reach sort-of-speak. Not to mention (until recently), you'd lose your post if the browser crashed and you forgot to "save a draft".
 

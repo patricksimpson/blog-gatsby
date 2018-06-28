@@ -2,6 +2,7 @@
 title: "Using Gatsby - Part II"
 summary: "Here's my details on using Gatsby specifically GraphQL, deployment and performance."
 date: "2017-11-30"
+tags: ["programming"]
 ---
 
 After a little more experimenting, I've finally landed at a good place with [GatsbyJS][gatsby_link] (Gatsby).  Here's my [blog source][blog_link].
