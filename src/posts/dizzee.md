@@ -17,7 +17,7 @@ First you want to install dizzee ([via melpa](https://melpa.org/#/dizzee)):
 
 In your emacs settings file `settings.el` 
 
-```
+```lisp
 (use-package dizzee
   :ensure t
   :config (progn
@@ -29,7 +29,7 @@ In your emacs settings file `settings.el`
 
 A project is defined in your `dz-projects.el` file such as: 
 
-```
+```lisp
 (dz-defservice cool-project-client "npm"
                         :args ("run" "serve")
                         :cd "/Users/patrick/github/cool-project-client")
@@ -37,7 +37,7 @@ A project is defined in your `dz-projects.el` file such as:
 
 and say you want a project running a server...
 
-```
+```lisp
 (dz-defservice cool-project-server "rails"
                         :args ("server" "-p" "3001")
                         :cd "/Users/patrick/github/cool-project-server")
